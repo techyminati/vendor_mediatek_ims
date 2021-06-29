@@ -65,3 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/ims/radio_stack/prebuild_libs/lib64/libvia-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvia-ril.so \
     vendor/mediatek/ims/radio_stack/prebuild_libs/lib64/libvsim.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvsim.so \
     vendor/mediatek/ims/radio_stack/prebuild_libs/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so
+
+# MTK Rill OSS
+PRODUCT_PACKAGES += \
+    libcares_naptr
